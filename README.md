@@ -1,32 +1,21 @@
 # Play-Store-App-Review-Analysis
-The primary objective of this project is to analyze the provided hotel bookings data to extract meaningful insights, identify trends, and provide actionable recommendations to improve business operations and customer satisfaction.
+Objective: Analyze data from the Google Play Store to gain insights into app performance, user ratings, and sentiments from user reviews.
 
-Data Overview:
-The dataset consists of various attributes related to hotel bookings, including information about the booking dates, customer demographics, booking status, stay duration, special requests, and more. The key columns include:
+Data Sources:
 
-hotel: Type of hotel (City Hotel or Resort Hotel)
-is_canceled: Booking status (canceled or not)
-lead_time: Number of days between the booking date and the arrival date
-arrival_date_year: Year of arrival
-arrival_date_month: Month of arrival
-stays_in_weekend_nights: Number of weekend nights
-stays_in_week_nights: Number of week nights
-adults: Number of adults
-children: Number of children
-babies: Number of babies
-meal: Type of meal booked
-country: Country of origin of the customer
-market_segment: Market segment designation
-distribution_channel: Booking distribution channel
-is_repeated_guest: Whether the booking is from a repeated guest
-previous_cancellations: Number of previous cancellations
-previous_bookings_not_canceled: Number of previous non-canceled bookings
-reserved_room_type: Code of room type reserved
-assigned_room_type: Code of room type assigned
-booking_changes: Number of changes made to the booking
-deposit_type: Type of deposit made
-agent: ID of the travel agency that made the booking
-company: ID of the company that made the booking
-days_in_waiting_list: Number of days the booking was on the waiting list
-customer_type: Type of customer (e.g., transient, contract, etc.)
-adr: Average Daily Rate
+Play Store Data: Contains information about various apps available on the Google Play Store, including their ratings, number of reviews, size, number of installs, type (free or paid), price, content rating, genres, last updated date, current version, and minimum Android version required.
+User Reviews: Contains user reviews for these apps, including the translated review text, sentiment analysis (positive, negative, neutral), and sentiment polarity and subjectivity scores.
+Key Metrics and Analysis:
+
+App Popularity: Based on the number of installs and user ratings.
+User Engagement: Evaluated through the number of reviews.
+App Quality: Assessed using average user ratings and sentiments from reviews.
+Sentiment Analysis: Understanding user satisfaction and feedback by analyzing the sentiment polarity and subjectivity of reviews.
+Market Trends: Identifying popular app categories and genres.
+Potential Insights:
+
+Distribution of app ratings and identifying highly rated apps.
+Correlation between the number of installs and user ratings.
+Distribution of sentiments in user reviews across different app categories.
+Common themes and keywords in positive and negative reviews.
+Trends in app updates and version changes over time.
